@@ -32,8 +32,8 @@ def save_response_content(response, destination):
 
 
 
-print('Dowloading Sony subset... (25GB)')
-download_file_from_google_drive('10kpAcvldtcb9G2ze5hTcF1odzu4V_Zvh', 'dataset/Sony.zip')
+#print('Dowloading Sony subset... (25GB)')
+#download_file_from_google_drive('10kpAcvldtcb9G2ze5hTcF1odzu4V_Zvh', 'dataset/Sony.zip')
 os.system('unzip dataset/Sony.zip -d dataset')
 
 # print('Dowloading Fuji subset... (52GB)')
